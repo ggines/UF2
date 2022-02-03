@@ -1,0 +1,8 @@
+https://github.com/EricAlbiol/activitatsuf2/blob/main/Ordenats%20descendents/functions.c
+
+Correcció: He canviat el do while per un while.
+Si es posa un valor fora de rang t'avisa de que ho has d'introduir altre vegada.
+
+Correcció: He tret el [ del primer printf de la funció mostrar.
+Els 2 printf del if els he posat amb [] i un espai, per a que quedi millor visualment.
+També he tret l'últim printf que tenía un ].
