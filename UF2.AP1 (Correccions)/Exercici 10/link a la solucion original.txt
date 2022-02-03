@@ -1,0 +1,5 @@
+https://github.com/olaf1816/UF2/blob/main/Activitat_10/function.c
+
+Correcció: He posat separadors per millorar la taula.
+També he millorat el printf per a que mostri de forma mes ordenada les dades.
+He posat un número en els % per controlar l'espai de cada dada.
