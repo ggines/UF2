@@ -1,1 +1,5 @@
 https://github.com/zaidamorales/UF2/blob/main/ejercicio%207/functions.c
+
+Correcció: He millorat la validació canviant el do while per un while,
+simplement per a que t'avisi que has posat un valor fora de rang.
+Ara mentre posis un valor fora de rang et surt que introdueixis un valor vàlid.
