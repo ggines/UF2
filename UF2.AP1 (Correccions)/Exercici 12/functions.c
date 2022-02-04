@@ -7,7 +7,6 @@
 #include <stdio.h>
 #include "functions.h"
 
-
 int introduccio(char *msg){
 	int num;
 	do{
@@ -47,13 +46,10 @@ void mostrar(int *llistaNum, int Size){
 	//Correcció: He tret el [ del primer printf
 	printf("L'array ordenat és: ");
 	for (int i=0;i<Size;i++){
-		if(i!=Size-1){
-			//En els 2 printf del if ho he posat amb [] i un espai,
-			//per a que quedi millor visualment.
-			printf("[%d] ", llistaNum[i]);
-		}else{
+		//En els 2 printf del if ho he posat amb [] i un espai,
+		//per a que quedi millor visualment.
+		//He tret el if que hi havía dins del for perque no era necessari
 		printf("[%d] ", llistaNum[i]);
-		}
 	}
 	//He tret aquest printf amb el ]
 }
